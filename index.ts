@@ -9,6 +9,7 @@ const client = new DiscordJS.Client({
 	intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 })
 
+
 client.on("ready", async () => {
   const guild = await client.guilds.fetch(process.env.GUILD_ID || "")
   

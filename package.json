@@ -7,7 +7,7 @@
     "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.ts",
-    "postinstall": "npm install typescript"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,8 @@
     "mongoose": "^6.3.8",
     "node-fetch": "^3.2.6",
     "tsc": "^2.0.4",
-    "wokcommands": "^1.5.3"
+    "wokcommands": "^1.5.3",
+    "ts-node": "^3.3.0"
   },
   "devDependencies": {
     "typescript": "^4.8.0-dev.20220615",
