@@ -20,9 +20,8 @@
     "node-fetch": "^3.2.6",
     "tsc": "^2.0.4",
     "typescript": "^4.8.0-dev.20220615",
-    "wokcommands": "^1.5.3",
-    "ts-node": "^10.8.1"
-  },
+    "wokcommands": "^1.5.3"
+    },
   "devDependencies": {
     "moment": "^2.29.3",
     "nodemon": "^2.0.16"
